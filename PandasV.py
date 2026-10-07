@@ -7,3 +7,7 @@ df = pd.read_csv(r"C:\Users\alejandro.nascimento\Downloads\funcionarios.csv")
 salario = df.query("salario > 3000 and ativo == True") 
 
 SalarioNome = df[["nome", "salario"]]
+
+print(salario)
+print(type(SalarioNome))
+print(df.info)
